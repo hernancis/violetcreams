@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- TRABAJO PRACTICO FRONT END CURSO 2166 INTEGRANTES NATALIA VILLAGRAN, HERNAN CISNERO -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Violet Creams ::: Home</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <script src="https://kit.fontawesome.com/9872bf39cc.js" crossorigin="anonymous"></script>
+        
+    </head>
+    
+
+    <body> 
+
+      <a div class="custom-logo-link" href="index.html" rel="home" itemprop="url">
+      <img class="custom-logo" src="img/logo.JPG" alt="logo" itemprop="logo" width="auto" height="auto">
+    </a>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="quienes_somos.html">Quienes somos</a>
+  <a href="productos.html">Productos</a>
+  <a href="contacto.html">Contacto</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">.</div>
+  <img src="img/img1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">.</div>
+  <img src="img/img3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">.</div>
+  <img src="img/img2.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 6000); 
+}var slideIndex = 0;
+showSlides();
+
+</script>
+
+
+<footer>
+    
+  <p><i>Copyright 2021 Violet Creams</i></p>
+  
+  <a class="fab fa-instagram" href="https://www.instagram.com/violetcreamsbakery/"></a>
+  <a class="fab fa-whatsapp" href="+5491155556767"></a></a>
+  <a class="fab fa-github" href="https://github.com/hernancis/violetcreams"></a>
+  
+</footer>
+
+    </body>
+
+</html>

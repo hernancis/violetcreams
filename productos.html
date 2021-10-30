@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- TRABAJO PRACTICO FRONT END CURSO 2166 INTEGRANTES NATALIA VILLAGRAN, HERNAN CISNERO -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Violet Creams ::: Productos</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <script src="https://kit.fontawesome.com/9872bf39cc.js" crossorigin="anonymous"></script>
+
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          .flex-container {
+            display: flex;
+            flex-direction: row;
+            font-size: 30px;
+            text-align: center;
+          }
+          
+          .flex-item-left {
+            background-color: #59028b;
+            padding: 10px;
+            flex: 50%;
+          }
+          
+          .flex-item-right {
+            background-color: rgb(170, 6, 115);
+            padding: 10px;
+            flex: 50%;
+          }
+          
+          
+          @media (max-width: 800px) {
+            .flex-container {
+              flex-direction: column;
+            }
+          }
+          </style>
+
+
+    </head>
+    
+
+    <body> 
+
+      <a div class="custom-logo-link" href="index.html" rel="home" itemprop="url">
+        <img class="custom-logo" src="img/logo.JPG" alt="logo" itemprop="logo" width="auto" height="auto">
+      </a>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="quienes_somos.html">Quienes somos</a>
+  <a href="productos.html" class="active">Productos</a>
+  <a href="contacto.html">Contacto</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<h1>Nuestros Productos</h1>
+
+<p>Elige el producto, y luego haz click en Pagar y te direccionaremos al carrito de compras.</p>
+<p>Trabajamos con la plataforma de Mercadopago.</p>
+<p><b>Aceptamos todas las tarjetas y formas de pago disponibles en la plataforma.</b></p>
+
+<br>
+
+<div class="flex-container">
+  <div class="flex-item-left">
+    <img src="img/chocoreo.JPG" style="width:100%">
+    <h5>Torta Choco OREO - Opcion  Helada o Refrigerada</h5>
+    <h6>Masa de galletitas OREO queso crema y Dulce de leche.</h6>
+    <h6>Tamaño chico: 16 cm
+      Tamaño grande 22 cm</h6>
+      <h6>PRECIO: $1499</h6>
+  <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+  data-preference-id="4515022-eef125ef-33a2-48e2-a7d7-730cd18763af" data-source="button">
+  </script></div>
+  <div class="flex-item-right">
+    <img src="img/banoffepie.JPG" style="width:100%">
+    <h5>Banoffe Pie</h5>
+    <h6>Masa de galletitas (Opcion: Vainilla o Chocolate)  dulce de leche, trozos de banana aromatizadas y crema chantilly.</h6>
+    <h6>Tamaño chico: 16 cm
+    Tamaño grande: 22 cm </h6>
+    <h6>PRECIO: $1499</h6>
+  <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+  data-preference-id="4515022-eef125ef-33a2-48e2-a7d7-730cd18763af" data-source="button">
+  </script></div>
+</div>
+
+<footer>
+    
+  <p><i>Copyright 2021 Violet Creams</i></p>
+  
+  <a class="fab fa-instagram" href="https://www.instagram.com/violetcreamsbakery/"></a>
+  <a class="fab fa-whatsapp" href="+5491155556767"></a></a>
+  <a class="fab fa-github" href="https://github.com/hernancis/violetcreams"></a>
+  
+</footer>
+
+    </body>
+
+
+</html>
+
+
+
+
